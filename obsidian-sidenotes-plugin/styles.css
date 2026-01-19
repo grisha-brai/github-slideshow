@@ -1,0 +1,23 @@
+.sidenotes-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: var(--sidenotes-width, 360px);
+  transform: translateX(calc(100% - var(--sidenotes-peek, 12px)));
+  transition: transform 150ms ease;
+  z-index: 100;
+  box-shadow: -8px 0 16px rgba(0, 0, 0, 0.15);
+}
+
+body.sidenotes-open .sidenotes-panel {
+  transform: translateX(0);
+}
+
+.sidenotes-panel .view-header {
+  border-left: 1px solid var(--background-modifier-border);
+}
+
+.sidenotes-panel .view-content {
+  background-color: var(--background-primary);
+}

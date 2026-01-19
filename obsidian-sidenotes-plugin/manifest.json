@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-sidenotes",
+  "name": "SideNotes Panel",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Slides a dedicated note in from the edge of the screen and hides it when you move away.",
+  "author": "OpenAI",
+  "authorUrl": "https://openai.com",
+  "isDesktopOnly": true
+}
