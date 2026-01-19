@@ -8,7 +8,7 @@ This plugin mirrors the "SideNotes" app behavior inside Obsidian by keeping a de
 - Adjustable width, activation distance, and peek width.
 
 ## Setup
-1. Build the plugin as usual for Obsidian (copy `manifest.json`, `main.js`, and `styles.css` into your vault's plugins folder).
+1. Copy `manifest.json`, `main.js`, and `styles.css` into your vault's `.obsidian/plugins/obsidian-sidenotes/` folder.
 2. Enable **SideNotes Panel** in Obsidian settings.
 3. Use the settings tab to choose which note to show and tweak the panel behavior.
 
